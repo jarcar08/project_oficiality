@@ -1,23 +1,24 @@
 Descarga o clona el proyecto en tu maquina local, mejoralo y crea un commit o rama para subirlo! no te olvides guardar los cambios!
 
-para configurar un repositorio desde 0 se hace lo siguiente y subirlo a github:
+***Para configurar un repositorio desde 0 y subirlo a github se hace lo siguiente:*** ...OJO...
 
 EL USER, CORREO, ACCESS TOKEN, LA URL DEL REPOSITORIO,  LE RECOMIENDO COPIAR Y GUARDARLO EN UN BLOC DE NOTAS!
-   
+  
 te diriges a github te registras y creas un repositorio de manera publica, una vez creado copias el enlace del navegador!
    
-genera tus access token personal haces lo siguiente: entra a tu perfil de github, ingresa en settings, luego a developer settings, le das en personal access token, luego en tokens(classic) y en caducidad selecciones nunca!
+genera tus access token personal haces lo siguiente:
+entra a tu perfil de github, ingresa en settings, luego a developer settings, le das en personal access token, luego en tokens(classic) y en caducidad selecciones nunca!
 
 PASOS A REALIZAR DESPUES DE LO ANTERIOR:
 1. descarga e instala git en tu maquina en https://git-scm.com/download/win
 2. dirigete a la carpeta donde esta tu proyecto en java e inicializa git bash here.(fijate que estes en la ruta correcta!)
-3. en git escribe: git init ...le das enter
+3. en git escribe: git init (le das enter)
 4. luego en el mismo git escribe: git config user.name "tu-user-de-github", tal cual como te registraste, sin las comillas. le das enter
 5. luego escribe: git config user.email "tu-correo-registrado", igual sin las comillas... le das enter
-6. luego escribe: git config user.password "tu-access-token", escribire mas abajo como obtenerlo, de igual manera sin comillas y das enter.
-7. posterior a eso haces escribes lo siguiente: git remote add origin "url-del-repositorio-creado-en-github", igual sin las comillas.
-8. luego escribes: git add . (si incluyes el punto)
-9. luego escribes: git commit -m actualizarPat
+6. luego escribe: git config user.password "tu-access-token" (arriba está explicado como obtenerlo, de igual manera sin comillas y das enter.)
+7. posterior a eso haces escribes lo siguiente: git remote add origin "url-del-repositorio-creado-en-github" (igual sin las comillas) le das enter!. 
+8. luego escribes: git add . (si incluyes el punto) le das enter!
+9. luego escribes: git commit -m actualizarPat (le das enter!)
 10. luego escribe: git push -u origin master
 11. Autorizas el acceso ingresando el codigo mostrado en pantalla. ¡Y LISTO ESO SERIA TODO!
 
