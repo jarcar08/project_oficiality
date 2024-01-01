@@ -2,24 +2,24 @@ Descarga o clona el proyecto en tu maquina local, mejoralo y crea un commit o ra
 
 para configurar un repositorio desde 0 se hace lo siguiente y subirlo a github:
 
-0. EL USER, CORREO, ACCESS TOKEN, LA URL DEL REPOSITORIO,  LE RECOMIENDO COPIAR Y GUARDARLO EN UN BLOC DE NOTAS!
+EL USER, CORREO, ACCESS TOKEN, LA URL DEL REPOSITORIO,  LE RECOMIENDO COPIAR Y GUARDARLO EN UN BLOC DE NOTAS!
    
-0. te diriges a github te registras y creas un repositorio de manera publica, una vez creado copias el enlace del navegador!
+te diriges a github te registras y creas un repositorio de manera publica, una vez creado copias el enlace del navegador!
    
-0.1 genera tus access token personal haces lo siguiente: entra a tu perfil de github, ingresa en settings, luego a developer settings, le das en personal access token, luego en tokens(classic) y en caducidad selecciones nunca!
+genera tus access token personal haces lo siguiente: entra a tu perfil de github, ingresa en settings, luego a developer settings, le das en personal access token, luego en tokens(classic) y en caducidad selecciones nunca!
 
 PASOS A REALIZAR DESPUES DE LO ANTERIOR:
-2. descarga e instala git en tu maquina en https://git-scm.com/download/win
-3. dirigete a la carpeta donde esta tu proyecto en java e inicializa git bash here.(fijate que estes en la ruta correcta!)
-4. en git escribe: git init ...le das enter
-5. luego en el mismo git escribe: git config user.name "tu-user-de-github", tal cual como te registraste, sin las comillas. le das enter
-6. luego escribe: git config user.email "tu-correo-registrado", igual sin las comillas... le das enter
-7. luego escribe: git config user.password "tu-access-token", escribire mas abajo como obtenerlo, de igual manera sin comillas y das enter.
-8. posterior a eso haces escribes lo siguiente: git remote add origin "url-del-repositorio-creado-en-github", igual sin las comillas.
-9. luego escribes: git add . (si incluyes el punto)
-10. luego escribes: git commit -m actualizarPat
-11. luego escribe: git push -u origin master
-12. Autorizas el acceso ingresando el codigo mostrado en pantalla. ¡Y LISTO ESO SERIA TODO!
+1. descarga e instala git en tu maquina en https://git-scm.com/download/win
+2. dirigete a la carpeta donde esta tu proyecto en java e inicializa git bash here.(fijate que estes en la ruta correcta!)
+3. en git escribe: git init ...le das enter
+4. luego en el mismo git escribe: git config user.name "tu-user-de-github", tal cual como te registraste, sin las comillas. le das enter
+5. luego escribe: git config user.email "tu-correo-registrado", igual sin las comillas... le das enter
+6. luego escribe: git config user.password "tu-access-token", escribire mas abajo como obtenerlo, de igual manera sin comillas y das enter.
+7. posterior a eso haces escribes lo siguiente: git remote add origin "url-del-repositorio-creado-en-github", igual sin las comillas.
+8. luego escribes: git add . (si incluyes el punto)
+9. luego escribes: git commit -m actualizarPat
+10. luego escribe: git push -u origin master
+11. Autorizas el acceso ingresando el codigo mostrado en pantalla. ¡Y LISTO ESO SERIA TODO!
 *****AHORA PARA SUBIR LOS CAMBIOS QUE SE REALIZAN SE HACE LO SIGUIENTE:*****
 0. inicializa un git bash here en la carpeta del proyecto original y escribes lo siguiente:
 a. para ver los cambios no subidos en el repositorio escribes: git status (automaticamente te mostrara en rojo lo que falta subir) le das enter!
