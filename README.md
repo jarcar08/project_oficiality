@@ -48,6 +48,7 @@ c. digamos que alguien subio un cambio al repositorio en github para descargarlo
 ESO SERIA TODO!
 
 ****PARA CREAR RAMAS*****
+
 1.primero inicializamos el git bash here en la carpeta del proyecto y escribimos lo siguiente: git branch (nos muestra todas las ramas existentes). le das enter!
 
 2. para crear otra ramas escribimos: git branch name-de-la-nueva-rama (escribes el nombre de la rama que quieres crear sin los: "---", sin espacios!) le das enter!
